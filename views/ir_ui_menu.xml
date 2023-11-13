@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- define a menu action for access -->
+        <menuitem id="menu_notification_engine_parameter" name="Notifications" parent="base.menu_ir_property"
+                  action="user_notification_engine.notification_engine_action" sequence="11"/>
+
+    </data>
+</odoo>
